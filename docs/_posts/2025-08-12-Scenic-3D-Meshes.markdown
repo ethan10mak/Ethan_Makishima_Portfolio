@@ -7,7 +7,7 @@ categories: Scenic Meshes
 
 CARLA Town05             |  Scenic Town05 (My Version)
 :-------------------------:|:-------------------------:
-![Carla Town05]({{site.baseurl}}/assets/Capstone/CARLA_Town05.png)  |  ![Scenic Town05]({{site.baseurl}}/assets/Capstone/Scenic_Town05.png)
+![Carla Town05](../assets/Capstone/CARLA_Town05.png)  |  ![Scenic Town05](../assets/Capstone/Scenic_Town05.png)
 
 ## Links
 
