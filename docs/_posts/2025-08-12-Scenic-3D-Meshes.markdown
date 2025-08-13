@@ -5,9 +5,7 @@ date:   2025-08-12 13:09:12 -0700
 categories: Scenic Meshes
 ---
 
-[Github Repository][github-repo]
-[Paper][paper]
-[Presentation][presentation]
+[Github Repository][github-repo], [Paper][paper], [Presentation][presentation]
 
 
 ## Intro
@@ -37,5 +35,5 @@ TODO:
 - Add Link to Presentation
 
 [github-repo]: https://github.com/BerkeleyLearnVerify/Scenic/tree/3d-driving
-[paper]: /docs/assets/Capstone/CSE_Capstone_Paper.pdf
-[presentation]: /docs/assets/Capstone/Capstone%20Project%20Presentation%20Final.pptxZone.Identifier
+[paper]: https://drive.google.com/file/d/1heSntBwkX-YIAxuAPf8Bvj73L73NmwS3/view?usp=sharing
+[presentation]: https://drive.google.com/file/d/1DkTVb16uYtd1eQdSoJ52yy_plOK3Svzt/view?usp=sharing
