@@ -37,5 +37,5 @@ TODO:
 - Add Link to Presentation
 
 [github-repo]: https://github.com/BerkeleyLearnVerify/Scenic/tree/3d-driving
-[paper]: docs/assets/Capstone/CSE_Capstone_Paper.pdf
-[presentation]: docs/assets/Capstone/CSE_Capstone_Paper.pdfZone.Identifier
+[paper]: /docs/assets/Capstone/CSE_Capstone_Paper.pdf
+[presentation]: /docs/assets/Capstone/Capstone%20Project%20Presentation%20Final.pptxZone.Identifier
