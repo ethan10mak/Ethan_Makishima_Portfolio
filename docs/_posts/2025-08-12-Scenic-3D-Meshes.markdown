@@ -7,7 +7,7 @@ categories: Scenic Meshes
 
 CARLA Town05             |  Scenic Town05 (My Version)
 :-------------------------:|:-------------------------:
-![Carla Town05](/docs/assets/CARLA_Town05.png)  |  ![Scenic Town05](/docs/assets/Scenic_Town05.png)
+![Carla Town05](/docs/assets/Capstone/CARLA_Town05.png)  |  ![Scenic Town05](/docs/assets/Capstone/Scenic_Town05.png)
 
 ## Links
 
@@ -18,7 +18,7 @@ Research Paper: [Paper][paper]
 Capstone Presentation: [Presentation][presentation]
 
 
-## Intro
+## About
 
 Scenic is a probabilistic programming language designed to create and evaluate scenarios for perception systems in autonomous vehicles and other cyber-physical platforms, such as robotics. It generates “scenes” composed of objects and agents, allowing users to repeatedly simulate diverse environments. By producing numerous variations, including rare or edge cases, Scenic supports machine learning workflows, helps identify potential failure modes, and enables rigorous testing and validation of perception-driven systems.
 
@@ -37,12 +37,6 @@ I am still improving on this project and have compiled a list of tasks/improveme
 - Testing functionality with CARLA driving simulator
 - Fixing orientation of objects
 - Optimizing calculations of road network
-
-TODO:
-- Add Pictures
-- Add Link to Github
-- Add Link to Paper
-- Add Link to Presentation
 
 [github-repo]: https://github.com/BerkeleyLearnVerify/Scenic/tree/3d-driving
 [paper]: https://drive.google.com/file/d/1heSntBwkX-YIAxuAPf8Bvj73L73NmwS3/view?usp=sharing
