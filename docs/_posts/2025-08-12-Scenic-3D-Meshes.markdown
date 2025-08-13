@@ -20,3 +20,10 @@ I am still improving on this project and have compiled a list of tasks/improveme
 - Testing functionality with CARLA driving simulator
 - Fixing orientation of objects
 - Optimizing calculations of road network
+
+
+TODO:
+- Add Pictures
+- Add Link to Github
+- Add Link to Paper
+- Add Link to Presentation
