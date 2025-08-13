@@ -4,6 +4,14 @@ title:  "Research Project: Extending Scenic to Generate Three-Dimensional Meshes
 date:   2025-08-12 13:09:12 -0700
 categories: Scenic Meshes
 ---
+
+[Github Repository][github-repo]
+[Paper][paper]
+[Presentation][presentation]
+
+
+## Intro
+
 Scenic is a probabilistic programming language designed to create and evaluate scenarios for perception systems in autonomous vehicles and other cyber-physical platforms, such as robotics. It generates “scenes” composed of objects and agents, allowing users to repeatedly simulate diverse environments. By producing numerous variations, including rare or edge cases, Scenic supports machine learning workflows, helps identify potential failure modes, and enables rigorous testing and validation of perception-driven systems.
 
 Currently, Scenic supports only two-dimensional polygonal map representations, preventing accurate modeling of three-dimensional road features such as ramps, bridges, hilly roads, and tunnels. To address this limitation, I have been working to extend Scenic’s codebase to parse three-dimensional elements and generate corresponding 3D meshes.
@@ -27,3 +35,7 @@ TODO:
 - Add Link to Github
 - Add Link to Paper
 - Add Link to Presentation
+
+[github-repo]: https://github.com/BerkeleyLearnVerify/Scenic/tree/3d-driving
+[paper]: docs/assets/Capstone/CSE_Capstone_Paper.pdf
+[presentation]: docs/assets/Capstone/CSE_Capstone_Paper.pdfZone.Identifier
