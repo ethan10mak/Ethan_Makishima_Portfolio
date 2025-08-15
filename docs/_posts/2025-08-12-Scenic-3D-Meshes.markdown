@@ -8,7 +8,9 @@ categories: Scenic Meshes
 CARLA Town05             |  Scenic Town05 (My Version)
 :-------------------------:|:-------------------------:
 ![Carla Town05]({{site.baseurl}}/assets/Capstone/CARLA_Town05.png)  |  ![Scenic Town05]({{site.baseurl}}/assets/Capstone/Scenic_Town05.png)
+
 **Left:** [CARLA's][carla] generation of the map from parsing the OpenDrive file.
+
 **Right:** [Scenic's][scenic]/my generation of the map from parsing of the same OpenDrive file.
 
 ## About
