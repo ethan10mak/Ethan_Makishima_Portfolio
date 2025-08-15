@@ -11,15 +11,6 @@ CARLA Town05             |  Scenic Town05 (My Version)
 **Left:** [CARLA's][carla] generation of the map from parsing the OpenDrive file.
 **Right:** [Scenic's][scenic]/my generation of the map from parsing of the same OpenDrive file.
 
-## Links
-
-Github Repository: [Github Repository][github-repo]
-
-Research Paper: [Paper][paper]
- 
-Capstone Presentation: [Presentation][presentation]
-
-
 ## About
 
 [Scenic][scenic] is a probabilistic programming language designed to create and evaluate scenarios for perception systems in autonomous vehicles and other cyber-physical platforms, such as robotics. It generates “scenes” composed of objects and agents, allowing users to repeatedly simulate diverse environments. By producing numerous variations, including rare or edge cases, Scenic supports machine learning workflows, helps identify potential failure modes, and enables rigorous testing and validation of perception-driven systems.
@@ -42,7 +33,11 @@ I am still improving on this project and have compiled a list of tasks/improveme
 
 <!-- TODO: Add design process?-->
 
-## Resources:
+## Resources/Links:
+
+Github Repository: [Github Repository][github-repo]
+Research Paper: [Paper][paper]
+Capstone Presentation: [Presentation][presentation]
 
 Scenic's Homepage: [Scenic][scenic]
 Scenic's Documentation: [Documentation][scenic_documentation]
