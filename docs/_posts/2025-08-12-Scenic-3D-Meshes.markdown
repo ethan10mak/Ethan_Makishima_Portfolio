@@ -11,7 +11,7 @@ CARLA Town05             |  Scenic Town05 (My Version)
 
 **Left:** [CARLA's][carla] generation of the map from parsing the OpenDrive file.
 
-**Right:** [Scenic's][scenic]/my generation of the map from parsing of the same OpenDrive file.
+**Right:** [Scenic's][scenic] generation of the map from parsing the same OpenDrive file.
 
 ## About
 
@@ -38,12 +38,18 @@ I am still improving on this project and have compiled a list of tasks/improveme
 ## Resources/Links:
 
 Github Repository: [Github Repository][github-repo]
+
 Research Paper: [Paper][paper]
+
 Capstone Presentation: [Presentation][presentation]
 
+
 Scenic's Homepage: [Scenic][scenic]
+
 Scenic's Documentation: [Documentation][scenic_documentation]
+
 Carla's Homepage: [CARLA][carla]
+
 ASAM OpenDrive's Documentation: [ASAM OpenDrive][opendrive]
 
 [github-repo]: https://github.com/BerkeleyLearnVerify/Scenic/tree/3d-driving
