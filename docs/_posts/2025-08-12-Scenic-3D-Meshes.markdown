@@ -26,7 +26,8 @@ In this project, I have done the following:
 - Extended Road object architecture to support advanced 3D geometries.
 - Developed immersive 3D visualizations for complex road map scenarios, aiding debugging and presentation.
 - Built dual-mode support for 2D and 3D simulation with flexible command-line configuration.
-- This project was done as part of a Capstone Requirement as part of my Master's Program for Computer Science in Spring 2025. 
+
+This project was done as part of a Capstone Requirement as part of my Master's Program for Computer Science in Spring 2025. 
 
 I am still improving on this project and have compiled a list of tasks/improvements that I am currently working on.
 - Testing functionality with [CARLA][carla] driving simulator
