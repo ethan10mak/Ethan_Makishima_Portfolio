@@ -9,4 +9,4 @@ layout: default
 
 ### [Research Project: Extending Scenic to Generate Three-Dimensional Meshes of Road Networks][scenic]
 
-[scenic]: {{site.baseurl}}/_posts/2025-08-12-Scenic-3D-Meshes.markdown
+[scenic]: {% post_url 2025-08-12-Scenic-3D-Meshes %}
