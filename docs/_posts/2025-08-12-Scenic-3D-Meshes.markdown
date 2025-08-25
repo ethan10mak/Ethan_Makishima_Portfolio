@@ -5,6 +5,8 @@ date:   2025-08-12 13:09:12 -0700
 categories: Scenic Meshes
 ---
 
+[Github Repository][github-repo]
+
 CARLA Town05             |  Scenic Town05 (My Version)
 :-------------------------:|:-------------------------:
 ![Carla Town05]({{site.baseurl}}/assets/Capstone/CARLA_Town05.png)  |  ![Scenic Town05]({{site.baseurl}}/assets/Capstone/Scenic_Town05.png)

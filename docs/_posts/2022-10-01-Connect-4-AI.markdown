@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Connect-4 AI"
+date:   2022-10-01 13:09:12 -0700
+categories: AI
+---
+
+[Github repository][github-repo]
+
+## About
+
+Connect 4 is a competitive two player game where each player takes turn dropping disks of their color onto a board. A player wins when four of their own disks of the same color connect either vertically, horizontally, or diagonally. The game ends when either player wins, or in a tie when the board is filled and neither player can make a move.
+
+In this project, I created a Connect 4 AI agent, with an alpha-beta pruning search algorithm and an expectimax search algorithm. The agent can play against itself, another player, or a random agent (choosing random moves). When playing against itself and another player, it utilizes the alpha-beta search algorithm and while playing the random agent, it utilizes the expectimax algorithm.
+
+## Algorithms
+
+### Alpha-Beta Pruning Search Algorithm
+
+The alpha-beta pruning search algorithm is a variation of the minimax algorithm that is an adversial search algorithm that finds the best move from a tree of all possible moves. The minimax search algorithm uses a tree of nodes, where each node represents a possible situation in the game, and determines the best possible move assuming. The alpha-beta pruning algorithm keeps two values, alpha and beta. Alpha represents the minimum score that the maximizing player is assured of, and beta represents the maximum score that the minimizing player is assured of. Alpha starts at negative infinity while beta starts at positive infinity, which are the worst scores for each player. If beta becomes less than alpha, the algorithm stops exploring that part of the search tree. This is because the maximizing player has already found a better move, so this path will not be chosen
+
+As an example, lets assume that player A is deciding between two moves, move 1 and move 2. Move 1 leads to a good outcome, but player A looks at the possibilities of move 2. If move 2 is played, the opposing player can play two moves that cause player A to lose, so all other outcomes from playing move 2 are not considered as the opponent can force a win. The maximum score that the opponent could force after move 2 is negative infinity, which is a loss for the player. This is less than the minimum position that was previously found. Move 1 does not result in a forced loss in two moves.
+
+### Expectimax Search Algorithm
+
+This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI, I have yet to win a game.
+
+[github-repo]: https://github.com/ethan10mak/Connect-4-AI
