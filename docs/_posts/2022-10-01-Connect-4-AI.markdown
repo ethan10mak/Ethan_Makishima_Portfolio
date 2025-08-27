@@ -7,7 +7,7 @@ categories: AI
 
 [Github repository][github-repo]
 
-![Carla Town05]({{site.baseurl}}/assets/Connect4/Connect4.png)
+![Connect4 Game]({{site.baseurl}}/assets/Connect4/Connect4.png)
 
 ## About
 
