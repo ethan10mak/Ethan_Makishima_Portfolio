@@ -25,7 +25,7 @@ As an example, lets assume that player A is deciding between two moves, move 1 a
 
 The expectimax algorithm is a variation of the minimax algorithm that introduces probabilities. The algorithm introduces chance nodes into the tree, which represent the probabilities that certain game states can happen. This algorithm is better suited when games have randomness, or the player is not playing optimally.
 
-
+## Repository
 
 This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI, I have yet to win a game.
 
