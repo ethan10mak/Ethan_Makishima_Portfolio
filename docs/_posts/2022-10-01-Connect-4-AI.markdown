@@ -7,6 +7,8 @@ categories: AI
 
 [Github repository][github-repo]
 
+![Carla Town05]({{site.baseurl}}/assets/Connect4/Connect4.png)
+
 ## About
 
 Connect 4 is a competitive two player game where each player takes turn dropping disks of their color onto a board. A player wins when four of their own disks of the same color connect either vertically, horizontally, or diagonally. The game ends when either player wins, or in a tie when the board is filled and neither player can make a move.
@@ -21,9 +23,13 @@ The alpha-beta pruning search algorithm is a variation of the minimax algorithm 
 
 As an example, lets assume that player A is deciding between two moves, move 1 and move 2. Move 1 leads to a good outcome, but player A looks at the possibilities of move 2. If move 2 is played, the opposing player can play two moves that cause player A to lose, so all other outcomes from playing move 2 are not considered as the opponent can force a win. The maximum score that the opponent could force after move 2 is negative infinity, which is a loss for the player. This is less than the minimum position that was previously found. Move 1 does not result in a forced loss in two moves.
 
+The Connect 4 AI agent utilizes the Alpha-Beta pruning algorithm when playing against a human player, or another AI agent. Implementing the weights for what is a better or worse game state was challenging, as accounting for all edge cases took lots of planning. The main design philosophy behind the agent was to prioritize states where the agent has disks in a row. For example, states with two of its disks in a row were favored more than states that didn't, and states with three of its disks in a row were favored even more. The agent also slightly favors putting disks in the middle of the board.
+
 ### Expectimax Search Algorithm
 
 The expectimax algorithm is a variation of the minimax algorithm that introduces probabilities. The algorithm introduces chance nodes into the tree, which represent the probabilities that certain game states can happen. This algorithm is better suited when games have randomness, or the player is not playing optimally.
+
+The Connect 4 AI agent utilizes the Expectimax search algorithm when playing against a random moves bot. The agent assumes that all of the possible options the opponent will make are equally likely, so the agent will make a decision considering all moves.
 
 ## Repository
 
