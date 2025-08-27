@@ -9,4 +9,7 @@ title: Projects
 
 ### [Research Project: Extending Scenic to Generate Three-Dimensional Meshes of Road Networks][scenic]
 
-[scenic]: {{ site.baseurl }}/scenic/meshes/2025/08/12/Scenic-3D-Meshes.html
+### [Connect 4 AI][connect4]
+
+[scenic]: {{site.baseurl}}/scenic/meshes/2025/08/12/Scenic-3D-Meshes.html
+[connect4]: {{site.baseurl}}/ai/2022/10/01/Connect-4-AI.html
