@@ -33,7 +33,9 @@ The Connect 4 AI agent utilizes the Expectimax search algorithm when playing aga
 
 ## Repository
 
-This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI, I have yet to win a game.
+This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI.
+
+Instructions on how to run the program are on the github README.
 
 Github Repository: [Github][github-repo]
 
