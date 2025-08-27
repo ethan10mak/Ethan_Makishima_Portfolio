@@ -11,6 +11,8 @@ categories: AI
 
 ## About
 
+This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI.
+
 Connect 4 is a competitive two player game where each player takes turn dropping disks of their color onto a board. A player wins when four of their own disks of the same color connect either vertically, horizontally, or diagonally. The game ends when either player wins, or in a tie when the board is filled and neither player can make a move.
 
 In this project, I created a Connect 4 AI agent, with an alpha-beta pruning search algorithm and an expectimax search algorithm. The agent can play against itself, another player, or a random agent (choosing random moves). When playing against itself and another player, it utilizes the alpha-beta search algorithm and while playing the random agent, it utilizes the expectimax algorithm.
@@ -31,12 +33,28 @@ The expectimax algorithm is a variation of the minimax algorithm that introduces
 
 The Connect 4 AI agent utilizes the Expectimax search algorithm when playing against a random moves bot. The agent assumes that all of the possible options the opponent will make are equally likely, so the agent will make a decision considering all moves.
 
-## Repository
+## Results
 
-This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI.
+When I play against the agent, I notice that when I try to make moves that position myself in the best way, the agent tends to win. The agent also recognizes winning states and tries to get to them. However, I notice that when I play sporatically, or less logically, the agent has a harder time and I tend to win.
+
+When two agents play against each other, player 1 consistently wins with the same sequence of moves occuring everytime.
+
+When an agent plays the random bot, the agent tends to win.
+
+## Future Work
+
+Although the agent behaves relatively smart, it does not act optimally. A link to a connect four solver is [here][solver].
+
+In addition, the agent will sometimes make moves that favor board position over winning. For example, sometimes the agent will won't make a move that gives them a move, and will instead make a move that gives them multiple 3 in a rows. This could be to how I am calculating the heuristic for good moves and winning states.
+
+## Resources
 
 Instructions on how to run the program are on the github README.
 
 Github Repository: [Github][github-repo]
 
+Online solver: [solver][solver]
+
 [github-repo]: https://github.com/ethan10mak/Connect-4-AI
+
+[solver]: https://connect4.gamesolver.org/
