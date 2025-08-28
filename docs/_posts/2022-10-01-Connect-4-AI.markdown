@@ -9,7 +9,7 @@ categories: AI
 
 ![Connect4 Game]({{site.baseurl}}/assets/Connect4/Connect4.png)
 
-## About
+## Overview
 
 This project was done as part of my class at UCSC, CSE140: Artificial Intelligence. I challenge you to try and beat the AI.
 
@@ -18,6 +18,8 @@ Connect 4 is a competitive two player game where each player takes turn dropping
 In this project, I created a Connect 4 AI agent, with an alpha-beta pruning search algorithm and an expectimax search algorithm. The agent can play against itself, another player, or a random agent (choosing random moves). When playing against itself and another player, it utilizes the alpha-beta search algorithm and while playing the random agent, it utilizes the expectimax algorithm.
 
 ## Algorithms
+
+Here are the explanations for the algorithms implemented into the agent.
 
 ### Alpha-Beta Pruning Search Algorithm
 
