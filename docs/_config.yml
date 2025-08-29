@@ -28,7 +28,7 @@ github_username:  ethan10mak
 linkedin_username: ethan-makishima-635b4a1ab
 
 # Build settings
-theme: jekyll-athena # If you want to use a different theme, change this value.
+theme: minima # If you want to use a different theme, change this value.
 plugins:
   - jekyll-feed
 
