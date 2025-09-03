@@ -21,7 +21,7 @@
 title: Ethan Makishima Portfolio
 email: ethan10mak@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ethan Makishima's personal portfolio showcasing projects, skills, and experiences in software development and design.
+  My personal portfolio showcasing projects, skills, and experiences in software development and design.
 baseurl: "/Ethan_Makishima_Portfolio" # the subpath of your site, e.g. /blog
 url: "https://ethan10mak.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ethan10mak
