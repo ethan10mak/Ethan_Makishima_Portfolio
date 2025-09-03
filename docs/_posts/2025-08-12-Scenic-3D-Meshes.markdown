@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "Research Project: Extending Scenic to Generate Three-Dimensional Meshes of Road Networks"
 date:   2025-08-12 13:09:12 -0700
 categories: Scenic Meshes
