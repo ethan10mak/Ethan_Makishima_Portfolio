@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "minimal-mistakes-jekyll"
+#gem "minimal-mistakes-jekyll"
 #gem "minima", "~> 2.5", #'jekyll-athena', '~> 0.0.2'# If you want to use a different theme, change this value and in config.yml
 # To upgrade, run `bundle update github-pages`.
 # If you have any plugins, put them here!
@@ -31,4 +31,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "github-pages", "~> 232", group: :jekyll_plugins
 
-gem 'jekyll-include-cache'
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll-remote-theme"

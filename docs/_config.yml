@@ -28,11 +28,12 @@ github_username:  ethan10mak
 linkedin_username: ethan-makishima-635b4a1ab
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 #theme: minima # If you want to use a different theme, change this value.
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+remote_theme: mmistakes/minimal-mistakes@4.27.3
 
 # Exclude from processing.
 # The following items will not be processed, by default.
